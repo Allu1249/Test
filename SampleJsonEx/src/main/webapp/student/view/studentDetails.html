@@ -1,0 +1,20 @@
+<html>
+<head>
+<script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+
+<body>
+	<div ng-app="myStudents" ng-controller="studentCtrl">
+		<table ng-repeat="student in students">
+			<tr>
+				<td>student.id</td>
+				<td>student.name</td>
+				<td>student.dept</td>
+				<td>student.section</td>
+			</tr>
+		</table>
+	</div>
+</body>
+
+</html>
